@@ -1,0 +1,38 @@
+{
+  "name": "contentSystem",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@riophae/vue-treeselect": "0.0.37",
+    "axios": "^0.18.0",
+    "clone": "^2.1.2",
+    "iview": "^3.0.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "v-tooltip": "^2.0.0-rc.33",
+    "vue": "^2.5.16",
+    "vue-echarts": "^3.1.3",
+    "vue-router": "^3.0.1",
+    "vuebar": "0.0.20",
+    "vuedraggable": "^2.17.0",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.15",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
+    "@vue/cli-service": "^3.0.0-beta.15",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
